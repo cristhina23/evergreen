@@ -8,8 +8,8 @@ export const businessInfo = {
 	whatsappLabel: 'Escríbenos',
 	whatsappCtaLabel: 'Escríbenos por WhatsApp',
 	whatsappUrl:
-		'https://wa.me/51947241719?text=Hola%20Evergreen%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20lavander%C3%ADa.',
-	phone: '+51 947 241 719',
+		'https://wa.me/51947947119?text=Hola%20Evergreen%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20lavander%C3%ADa.',
+	phone: '+51 947 947 119',
 	email: 'hola@evergreenlavanderias.com',
 	address: 'Av. Petit Thouars 4748, Miraflores, Lima, Perú'
 };
@@ -145,27 +145,39 @@ export const processSteps = [
 
 export const beforeAfter = {
 	title: 'Resultados que hablan por sí solos',
-	description: 'Devolvemos vida a tus prendas',
+
+	description:
+		'Cada prenda recibe un tratamiento especializado para eliminar manchas, olores y desgaste visual. Recuperamos la frescura, suavidad y apariencia que hacen que tu ropa luzca como nueva.',
+
+	benefits: [
+		'Eliminación efectiva de manchas difíciles',
+		'Protección de telas delicadas',
+		'Productos profesionales de alta calidad',
+		'Resultados visibles desde el primer servicio'
+	],
+
 	cta: 'Ver más resultados',
-	beforeLabel: 'Antes',
-	afterLabel: 'Después',
-	beforeImage:
-		'https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=900&q=80',
-	afterImage:
-		'https://images.unsplash.com/photo-1608228088998-57828365d486?auto=format&fit=crop&w=900&q=80'
+
+	beforeImage: 'antes-despues.png'
 };
 
 export const pickupDelivery = {
 	title: 'Pickup & Delivery',
-	subtitle: 'Comodidad que se adapta a tu ritmo de vida',
-	image:
-		'https://images.unsplash.com/photo-1580674285054-bed31e145f59?auto=format&fit=crop&w=1000&q=85',
-	cta: 'Conoce más',
+
+	subtitle: 'Más tiempo para ti, nosotros nos encargamos de tu ropa',
+
+	description:
+		'Olvídate de desplazamientos y largas esperas. Recogemos tus prendas en la puerta de tu hogar o negocio y las devolvemos limpias, frescas y listas para usar.',
+
+	image: 'transporte2.png',
+
+	cta: 'Solicitar recojo',
+
 	points: [
-		'Cobertura en Lima y Callao',
-		'Recojo y entrega a domicilio',
-		'Seguimiento en tiempo real',
-		'Atención personalizada'
+		'Cobertura en Lima Metropolitana y Callao',
+		'Recojo y entrega programados',
+		'Seguimiento personalizado de tu servicio',
+		'Ideal para familias y profesionales ocupados'
 	]
 };
 
@@ -221,19 +233,61 @@ export const testimonials = [
 ];
 
 export const faq = [
-	'¿Qué tipo de prendas lavan?',
-	'¿Cuál es el tiempo de entrega?',
-	'¿Ofrecen servicio a domicilio?',
-	'¿Qué métodos de pago aceptan?'
+	{
+		question: '¿Qué tipo de prendas y textiles pueden lavar?',
+		answer:
+			'Lavamos ropa de uso diario, ternos, vestidos, ropa de cama, edredones, cortinas, manteles y prendas delicadas. Si tienes una prenda especial, nuestro equipo puede asesorarte antes del servicio.'
+	},
+	{
+		question: '¿Cuánto tiempo tarda el servicio?',
+		answer:
+			'La mayoría de los pedidos están listos entre 24 y 72 horas, dependiendo del tipo de prenda y tratamiento requerido. También contamos con opciones de atención prioritaria para casos urgentes.'
+	},
+	{
+		question: '¿Ofrecen recojo y entrega a domicilio?',
+		answer:
+			'Sí. Contamos con servicio Pickup & Delivery en Lima Metropolitana y Callao para que puedas ahorrar tiempo. Recogemos tus prendas y las devolvemos limpias y listas para usar.'
+	},
+	{
+		question: '¿Cómo cuidan las prendas delicadas?',
+		answer:
+			'Cada prenda es evaluada antes del proceso de lavado. Utilizamos productos especializados, técnicas adecuadas para cada tejido y controles de calidad para garantizar el mejor resultado posible.'
+	},
+	{
+		question: '¿Qué métodos de pago aceptan?',
+		answer:
+			'Aceptamos efectivo, tarjetas de débito y crédito, transferencias bancarias y pagos digitales para brindarte mayor comodidad.'
+	},
+	{
+		question: '¿Dónde están ubicadas sus sedes?',
+		answer:
+			'Contamos con sedes en Miraflores, Surquillo y San Isidro, además de servicio de recojo y entrega a domicilio en diversas zonas de Lima.'
+	}
 ];
 
 export const partners = ['P&G Professional', 'ECOLAB', 'Diversey', 'LG'];
 
 export const socialLinks = [
-	{ label: 'Instagram', icon: 'Camera', url: '/' },
-	{ label: 'TikTok', icon: 'Music2', url: '/' },
-	{ label: 'YouTube', icon: 'Video', url: '/' },
-	{ label: 'WhatsApp', icon: 'MessageCircle', url: '/' }
+	{
+		label: 'Instagram',
+		icon: 'mdi:instagram',
+		url: 'https://www.instagram.com/evergreenlavanderias'
+	},
+	{
+		label: 'TikTok',
+		icon: 'mdi:tiktok',
+		url: 'https://www.tiktok.com/@evergreenlavander'
+	},
+	{
+		label: 'YouTube',
+		icon: 'mdi:youtube',
+		url: 'https://www.youtube.com/channel/UCJrZayWeAHDnolOLClYz_PA'
+	},
+	{
+		label: 'Facebook',
+		icon: 'mdi:facebook',
+		url: 'https://www.facebook.com/EvergreenLava/#'
+	}
 ];
 
 export const footerData = {
