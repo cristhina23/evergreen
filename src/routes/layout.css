@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:ital,wght@0,600;0,700;0,800;1,700&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+:root {
+	--color-primary: #2d8cff;
+	--color-primary-light: #4ab7ff;
+	--color-primary-soft: #eaf6ff;
+
+	--color-secondary: #4caf50;
+	--color-secondary-light: #7ed957;
+	--color-secondary-soft: #eafbe7;
+
+	--color-text-primary: #0f2744;
+	--color-text-secondary: #64748b;
+
+	--color-background: #ffffff;
+	--color-surface: #f8fafc;
+
+	--color-border: #e2e8f0;
+}
+
+@theme {
+	--font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+	--font-heading: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	background: var(--color-background);
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-sans);
+	color: var(--color-text-primary);
+	background:
+		radial-gradient(circle at top left, rgba(74, 183, 255, 0.12), transparent 32rem),
+		radial-gradient(circle at top right, rgba(126, 217, 87, 0.12), transparent 32rem),
+		var(--color-background);
+}
+
+button,
+input {
+	font: inherit;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
