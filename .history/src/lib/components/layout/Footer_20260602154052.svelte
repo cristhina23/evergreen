@@ -1,8 +1,7 @@
 <script>
 	import { Leaf, Mail, MapPin, MessageCircle, Phone } from 'lucide-svelte';
 	import { businessInfo, footerData, socialLinks } from '../../../data/site.js';
-	import Icon from '@iconify/svelte';
-
+	import { getIcon } from '$lib/iconRegistry.js';
 </script>
 
 <footer class="bg-gradient-to-br from-[#057485] via-[#069057] to-[#3ba916] text-white">
@@ -12,21 +11,20 @@
 		<div>
 			<div class="mb-5 flex items-center gap-3">
 			
-				<div class="flex items-center gap-3 bg-white/45 p-3 rounded-2xl">
-					<img src="/logo.png" alt="Logo de lavanderias evergreen" class="w-50">
+				<div>
+					<img src="/logo.png" alt="Logo de lavanderias evergreen">
 				</div>
 			</div>
 			<p class="max-w-sm text-sm leading-7 text-white/80">{footerData.description}</p>
 			<div class="mt-5 flex gap-3">
 				{#each socialLinks as social}
+					{@const Icon = getIcon(social.icon)}
 					<a
 						href={social.url}
-						target="_blank"
-						rel="noopener noreferrer"
 						aria-label={social.label}
 						class="flex size-9 items-center justify-center rounded-full bg-white/15 transition hover:bg-white/25"
 					>
-						<Icon icon={social.icon} width="18" height="18" />
+						<Icon size={18} />
 					</a>
 				{/each}
 			</div>
@@ -54,7 +52,7 @@
 			<h3 class="mb-4 font-bold">{footerData.whatsappTitle}</h3>
 			<div class="grid gap-3 text-sm text-white/80">
 				<p class="flex gap-2"><Phone size={17} /> {businessInfo.phone}</p>
-				
+				<p class="flex gap-2"><Mail size={17} /> {businessInfo.email}</p>
 				<p class="flex gap-2"><MapPin size={17} /> {businessInfo.address}</p>
 			</div>
 			<p class="mt-4 text-sm leading-6 text-white/80">{footerData.whatsappText}</p>

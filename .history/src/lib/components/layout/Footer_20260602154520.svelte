@@ -1,8 +1,7 @@
 <script>
 	import { Leaf, Mail, MapPin, MessageCircle, Phone } from 'lucide-svelte';
 	import { businessInfo, footerData, socialLinks } from '../../../data/site.js';
-	import Icon from '@iconify/svelte';
-
+	import { getIcon } from '$lib/iconRegistry.js';
 </script>
 
 <footer class="bg-gradient-to-br from-[#057485] via-[#069057] to-[#3ba916] text-white">
@@ -19,14 +18,13 @@
 			<p class="max-w-sm text-sm leading-7 text-white/80">{footerData.description}</p>
 			<div class="mt-5 flex gap-3">
 				{#each socialLinks as social}
+					{@const Icon = getIcon(social.icon)}
 					<a
 						href={social.url}
-						target="_blank"
-						rel="noopener noreferrer"
 						aria-label={social.label}
 						class="flex size-9 items-center justify-center rounded-full bg-white/15 transition hover:bg-white/25"
 					>
-						<Icon icon={social.icon} width="18" height="18" />
+						<Icon size={18} />
 					</a>
 				{/each}
 			</div>

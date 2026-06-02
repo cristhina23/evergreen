@@ -275,7 +275,7 @@ export const socialLinks = [
 	},
 	{
 		label: 'TikTok',
-		icon: 'simple-icons:tiktok',
+		icon: 'mdi:tiktok',
 		url: 'https://www.tiktok.com/@evergreenlavander'
 	},
 	{

@@ -10,7 +10,7 @@ export const businessInfo = {
 	whatsappUrl:
 		'https://wa.me/51947947119?text=Hola%20Evergreen%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20lavander%C3%ADa.',
 	phone: '+51 947 947 119',
-	email: 'hola@evergreenlavanderias.com',
+
 	address: 'Av. Petit Thouars 4748, Miraflores, Lima, Perú'
 };
 
@@ -275,7 +275,7 @@ export const socialLinks = [
 	},
 	{
 		label: 'TikTok',
-		icon: 'simple-icons:tiktok',
+		icon: 'mdi:tiktok',
 		url: 'https://www.tiktok.com/@evergreenlavander'
 	},
 	{

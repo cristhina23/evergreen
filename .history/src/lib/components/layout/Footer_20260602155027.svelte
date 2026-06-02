@@ -1,7 +1,6 @@
 <script>
 	import { Leaf, Mail, MapPin, MessageCircle, Phone } from 'lucide-svelte';
 	import { businessInfo, footerData, socialLinks } from '../../../data/site.js';
-	import Icon from '@iconify/svelte';
 
 </script>
 
