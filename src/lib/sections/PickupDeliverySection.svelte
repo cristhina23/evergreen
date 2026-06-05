@@ -18,7 +18,7 @@
 					src={pickupDelivery.image}
 					alt={pickupDelivery.title}
 					class="h-full w-full object-cover object-center"
-				/>
+					loading="lazy"					/>
 
 				<div
 					class="absolute top-6 left-6 flex size-14 items-center justify-center rounded-full bg-white shadow-xl"

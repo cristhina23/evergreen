@@ -14,7 +14,7 @@
 			<div class="mb-5 flex items-center gap-3">
 			
 				<div class="flex items-center gap-3 bg-white/45 p-3 rounded-2xl">
-					<img src="/logo.png" alt="Logo de lavanderias evergreen" class="w-50">
+					<img src="/logo.png" alt="Logo de lavanderias evergreen" class="w-50" loading="lazy">
 				</div>
 			</div>
 			<p class="max-w-sm text-sm leading-7 text-white/80">{footerData.description}</p>
@@ -74,7 +74,7 @@
 	class="mx-auto max-w-7xl border-t border-white/15 px-4 py-5 sm:px-6 lg:px-8"
 >
 	<div
-		class="flex flex-col items-center justify-between gap-4 text-xs text-white/75 md:flex-row"
+		class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-xs text-white/75 md:flex-row"
 	>
 		<p>{footerData.copyright}</p>
 
