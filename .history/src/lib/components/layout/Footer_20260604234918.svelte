@@ -84,13 +84,6 @@
 		</div>
 	</div>
 
-	<a
-			href="https://cctechsolutions.dev"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="font-semibold text-white transition hover:text-white/80"
-	>
-
 	<p class="mt-5 flex items-center justify-center gap-2 text-sm text-white/70">
 		Hecho con
 
@@ -105,11 +98,15 @@
 
 		por
 
-		
+		<a
+			href="https://cctechsolutions.com"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="font-semibold text-white transition hover:text-white/80"
+		>
 			CC Tech Solutions
-		
+		</a>
 	</p>
-	</a>
 </div>
 </footer>
 <style>

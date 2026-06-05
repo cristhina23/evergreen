@@ -71,102 +71,109 @@
 		</div>
 	</div>
 	<div
-	class="mx-auto max-w-7xl border-t border-white/15 px-4 py-5 sm:px-6 lg:px-8"
->
-	<div
-		class="flex flex-col items-center justify-between gap-4 text-xs text-white/75 md:flex-row"
+		class="mx-auto flex max-w-7xl flex-col gap-3 border-t border-white/15 px-4 py-5 text-xs text-white/75 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8"
 	>
 		<p>{footerData.copyright}</p>
-
 		<div class="flex flex-wrap gap-4">
 			<a href="/">{footerData.privacy}</a>
 			<a href="/">{footerData.terms}</a>
 		</div>
 	</div>
+	<a
+		href={businessInfo.whatsappUrl}
+		target="_blank"
+		rel="noreferrer"
+		class="fixed right-5 bottom-5 z-50 flex size-14 items-center justify-center rounded-full bg-[var(--color-secondary)] text-white shadow-[0_16px_35px_rgba(76,175,80,0.35)]"
+		aria-label={businessInfo.whatsappLabel}
+	>
+		<MessageCircle size={28} />
+	</a>
+	<div>
+	<p class="mt-1 flex items-center  gap-2 text-white/60">
+	Hecho con
+
+	<span class="heart-wrapper">
+		<Heart
+			size={14}
+			fill="currentColor"
+			class="heart-beat text-white"
+		/>
+		<span class="heart-ripple"></span>
+	</span>
+
+	por
 
 	<a
-			href="https://cctechsolutions.dev"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="font-semibold text-white transition hover:text-white/80"
+		href="https://cctechsolutions.com"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="font-semibold text-white/80 transition hover:text-white"
 	>
-
-	<p class="mt-5 flex items-center justify-center gap-2 text-sm text-white/70">
-		Hecho con
-
-		<span class="heart-wrapper">
-			<Heart
-				size={14}
-				fill="currentColor"
-				class="heart-beat text-white"
-			/>
-			<span class="heart-ripple"></span>
-		</span>
-
-		por
-
-		
-			CC Tech Solutions
-		
-	</p>
+		CC Tech Solutions
 	</a>
-</div>
+</p>
 </footer>
 <style>
-.heart-wrapper {
-	position: relative;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 18px;
-	height: 18px;
-}
-
-.heart-beat {
-	position: relative;
-	z-index: 2;
-	animation: heartbeat 2.2s infinite;
-}
-
-.heart-ripple {
-	position: absolute;
-	inset: 0;
-	border: 1px solid rgba(255,255,255,.45);
-	border-radius: 9999px;
-	animation: ripple 2.2s infinite;
-}
-
-@keyframes heartbeat {
-	0%,100% {
-		transform: scale(1);
+	.heart-wrapper {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 	}
 
-	15% {
-		transform: scale(1.3);
+	.heart-beat {
+		animation: heartbeat 2s ease-in-out infinite;
+		transform-origin: center;
+		z-index: 2;
 	}
 
-	25% {
-		transform: scale(1);
+	.heart-ripple {
+		position: absolute;
+		width: 14px;
+		height: 14px;
+		border-radius: 9999px;
+		background: rgba(255, 255, 255, 0.25);
+		animation: ripple 2s ease-out infinite;
+		z-index: 1;
 	}
 
-	40% {
-		transform: scale(1.2);
+	@keyframes heartbeat {
+		0%,
+		100% {
+			transform: scale(1);
+		}
+
+		15% {
+			transform: scale(1.18);
+		}
+
+		30% {
+			transform: scale(1);
+		}
+
+		45% {
+			transform: scale(1.12);
+		}
+
+		60% {
+			transform: scale(1);
+		}
 	}
 
-	50% {
-		transform: scale(1);
-	}
-}
+	@keyframes ripple {
+		0% {
+			transform: scale(1);
+			opacity: 0.45;
+		}
 
-@keyframes ripple {
-	0% {
-		transform: scale(.8);
-		opacity: .7;
-	}
+		70% {
+			transform: scale(2.8);
+			opacity: 0;
+		}
 
-	100% {
-		transform: scale(3.5);
-		opacity: 0;
+		100% {
+			transform: scale(2.8);
+			opacity: 0;
+		}
 	}
-}
 </style>

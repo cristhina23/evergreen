@@ -71,102 +71,22 @@
 		</div>
 	</div>
 	<div
-	class="mx-auto max-w-7xl border-t border-white/15 px-4 py-5 sm:px-6 lg:px-8"
->
-	<div
-		class="flex flex-col items-center justify-between gap-4 text-xs text-white/75 md:flex-row"
+		class="mx-auto flex max-w-7xl flex-col gap-3 border-t border-white/15 px-4 py-5 text-xs text-white/75 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8"
 	>
 		<p>{footerData.copyright}</p>
-
 		<div class="flex flex-wrap gap-4">
 			<a href="/">{footerData.privacy}</a>
 			<a href="/">{footerData.terms}</a>
 		</div>
 	</div>
-
 	<a
-			href="https://cctechsolutions.dev"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="font-semibold text-white transition hover:text-white/80"
+		href={businessInfo.whatsappUrl}
+		target="_blank"
+		rel="noreferrer"
+		class="fixed right-5 bottom-5 z-50 flex size-14 items-center justify-center rounded-full bg-[var(--color-secondary)] text-white shadow-[0_16px_35px_rgba(76,175,80,0.35)]"
+		aria-label={businessInfo.whatsappLabel}
 	>
-
-	<p class="mt-5 flex items-center justify-center gap-2 text-sm text-white/70">
-		Hecho con
-
-		<span class="heart-wrapper">
-			<Heart
-				size={14}
-				fill="currentColor"
-				class="heart-beat text-white"
-			/>
-			<span class="heart-ripple"></span>
-		</span>
-
-		por
-
-		
-			CC Tech Solutions
-		
-	</p>
+		<MessageCircle size={28} />
 	</a>
-</div>
+	
 </footer>
-<style>
-.heart-wrapper {
-	position: relative;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 18px;
-	height: 18px;
-}
-
-.heart-beat {
-	position: relative;
-	z-index: 2;
-	animation: heartbeat 2.2s infinite;
-}
-
-.heart-ripple {
-	position: absolute;
-	inset: 0;
-	border: 1px solid rgba(255,255,255,.45);
-	border-radius: 9999px;
-	animation: ripple 2.2s infinite;
-}
-
-@keyframes heartbeat {
-	0%,100% {
-		transform: scale(1);
-	}
-
-	15% {
-		transform: scale(1.3);
-	}
-
-	25% {
-		transform: scale(1);
-	}
-
-	40% {
-		transform: scale(1.2);
-	}
-
-	50% {
-		transform: scale(1);
-	}
-}
-
-@keyframes ripple {
-	0% {
-		transform: scale(.8);
-		opacity: .7;
-	}
-
-	100% {
-		transform: scale(3.5);
-		opacity: 0;
-	}
-}
-</style>

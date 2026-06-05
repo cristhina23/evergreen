@@ -85,7 +85,7 @@
 	</div>
 
 	<a
-			href="https://cctechsolutions.dev"
+			href="https://cctechsolutions.com"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="font-semibold text-white transition hover:text-white/80"
@@ -109,7 +109,6 @@
 			CC Tech Solutions
 		
 	</p>
-	</a>
 </div>
 </footer>
 <style>

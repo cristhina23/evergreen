@@ -85,7 +85,7 @@
 	</div>
 
 	<a
-			href="https://cctechsolutions.dev"
+			href="https://cctechsolutions."
 			target="_blank"
 			rel="noopener noreferrer"
 			class="font-semibold text-white transition hover:text-white/80"

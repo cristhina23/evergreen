@@ -60,7 +60,7 @@
 												href={item.link}
 												target="_blank"
 												rel="noopener noreferrer"
-												class="font-semibold text-(--color-primary) hover:underline"
+												class="font-semibold text-[var(--color-primary)] hover:underline"
 											>
 												{item.linkText}
 											</a>

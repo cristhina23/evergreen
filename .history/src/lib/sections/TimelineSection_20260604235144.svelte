@@ -53,14 +53,14 @@
 									{item.year}
 								</h3>
 
-								<p class="mt-3 text-sm leading-6 text-(--color-text-secondary)">
+								<p class="mt-3 text-sm leading-6 text-[var(--color-text-secondary)]">
 										{#if item.link}
 											{item.text}
 											<a
 												href={item.link}
 												target="_blank"
 												rel="noopener noreferrer"
-												class="font-semibold text-(--color-primary) hover:underline"
+												class="font-semibold text-[var(--color-primary)] hover:underline"
 											>
 												{item.linkText}
 											</a>
