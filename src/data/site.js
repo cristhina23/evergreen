@@ -24,7 +24,7 @@ export const heroContent = {
 	primaryCta: 'Conócenos',
 	secondaryCta: 'Escríbenos por WhatsApp',
 	image:
-		'/hero.png',
+		'/hero.webp',
 	experienceCard: {
 		value: '+15 años',
 		text: 'de experiencia cuidando tu ropa y la del planeta.'
