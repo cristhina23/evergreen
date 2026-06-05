@@ -28,7 +28,7 @@
 					{@const Icon = getIcon(step.icon)}
 
 					<article
-						class="group relative rounded-3xl bg-(--color-surface) p-6 transition-all duration-300 hover:-translate-y-1  hover:scale-105 hover:shadow-4xl lg:min-h-50"
+						class="group relative rounded-3xl bg-(--color-surface) p-6 transition-all duration-300 hover:-translate-y-1 transition hover:scale-105 hover:shadow-4xl lg:min-h-50"
 					>
 						<!-- Número -->
 						<div

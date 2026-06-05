@@ -28,11 +28,11 @@
 					{@const Icon = getIcon(step.icon)}
 
 					<article
-						class="group relative rounded-3xl bg-(--color-surface) p-6 transition-all duration-300 hover:-translate-y-1  hover:scale-105 hover:shadow-4xl lg:min-h-50"
+						class="group relative rounded-3xl bg-(--color-surface) p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-4xl lg:min-h-[200px]"
 					>
 						<!-- Número -->
 						<div
-							class="absolute -top-4 left-6 flex h-9 w-9 items-center justify-center rounded-full bg-(--color-secondary) text-sm font-bold text-white shadow-lg"
+							class="absolute -top-4 left-6 flex h-9 w-9 items-center justify-center rounded-full bg-[var(--color-secondary)] text-sm font-bold text-white shadow-lg"
 						>
 							{index + 1}
 						</div>
@@ -40,7 +40,7 @@
 						<!-- Flecha desktop -->
 						{#if index < processSteps.length - 1}
 							<div
-								class="absolute top-1/2 -right-5 hidden -translate-y-1/2 text-(--color-secondary) opacity-40 lg:block"
+								class="absolute top-1/2 -right-5 hidden -translate-y-1/2 text-[var(--color-secondary)] opacity-40 lg:block"
 							>
 								→
 							</div>
