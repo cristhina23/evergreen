@@ -107,69 +107,8 @@
 	</p>
 	</a>
 </div>
-
-<a
-	href={businessInfo.whatsappUrl}
-	target="_blank"
-	rel="noopener noreferrer"
-	class="whatsapp-float fixed right-5 bottom-5 z-50 flex size-14 items-center justify-center rounded-full bg-[var(--color-secondary)] text-white shadow-[0_16px_35px_rgba(76,175,80,0.35)]"
-	aria-label={businessInfo.whatsappLabel}
->
-	<span class="whatsapp-ripple"></span>
-
-	<MessageCircle size={28} />
-</a>
 </footer>
 <style>
-
-.whatsapp-float {
-	position: fixed;
-	animation:
-		whatsappFloat 3s ease-in-out infinite,
-		whatsappPulse 2s ease-in-out infinite;
-}
-
-.whatsapp-ripple {
-	position: absolute;
-	inset: 0;
-	border-radius: 9999px;
-	background: rgba(76, 175, 80, 0.35);
-	animation: whatsappRipple 2s infinite;
-	z-index: -1;
-}
-
-@keyframes whatsappPulse {
-	0%, 100% {
-		scale: 1;
-	}
-
-	50% {
-		scale: 1.08;
-	}
-}
-
-@keyframes whatsappFloat {
-	0%, 100% {
-		transform: translateY(0);
-	}
-
-	50% {
-		transform: translateY(-6px);
-	}
-}
-
-@keyframes whatsappRipple {
-	0% {
-		transform: scale(1);
-		opacity: 0.5;
-	}
-
-	100% {
-		transform: scale(1.8);
-		opacity: 0;
-	}
-}
-
 .heart-wrapper {
 	position: relative;
 	display: inline-flex;

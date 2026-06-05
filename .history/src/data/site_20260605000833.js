@@ -222,7 +222,7 @@ export const franchiseInfo = {
 	cta: 'Quiero más información',
 	videoLabel: 'Conoce las ventajas de ser franquiciado',
 	image:
-		'franquicia.png',
+		'franquisia',
 	benefits: [
 		{ title: 'Modelo de negocio probado y rentable', icon: 'Recycle' },
 		{ title: 'Soporte y capacitación continua', icon: 'Users' },

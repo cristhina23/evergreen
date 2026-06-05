@@ -56,7 +56,13 @@ const developerSchema = {
 	<link rel="icon" href={favicon} />
 
 	<meta name="description" content={description} />
-	<meta name="keywords" content="lavandería, lavandería en Lima, lavado de ropa, lavado de edredones, lavandería profesional, pickup delivery, Evergreen Lavanderías, lavandería miraflores, lavandería san isidro, lavandería surquillo, lavandería delivery lima, lavado de edredones lima, lavado de ropa miraflores, lavandería cerca de mí, lavandería premium lima, lavandería a domicilio lima, lavandería ecológica lima" />
+	<meta name="keywords" content="lavandería, lavandería en Lima, lavado de ropa, lavado de edredones, lavandería profesional, pickup delivery, Evergreen Lavanderías, lavandería miraflores, lavandería san isidro, lavandería surquillo, lavandería delivery lima
+lavado de edredones lima
+lavado de ropa miraflores
+lavandería cerca de mí
+lavandería premium lima
+lavandería a domicilio lima
+lavandería ecológica lima" />
 	<meta name="author" content="Evergreen Lavanderías" />
 	<meta name="creator" content="CC Tech Solutions | Cristhina Chacon" />
 	<meta name="publisher" content="CC Tech Solutions" />

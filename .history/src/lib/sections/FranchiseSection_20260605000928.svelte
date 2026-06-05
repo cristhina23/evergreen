@@ -46,7 +46,7 @@
 					src={franchiseInfo.image}
 					alt={franchiseInfo.videoLabel}
 				/>
-				<div class="absolute inset-0 bg-linear-to-t from-black/25 to-transparent"></div>
+				<div class="absolute inset-0 bg-linear-to-t from-black/45 to-transparent"></div>
 				
 				<p class="absolute right-5 bottom-5 left-5 text-center text-sm font-bold">
 					{franchiseInfo.videoLabel}

@@ -169,7 +169,6 @@
 		opacity: 0;
 	}
 }
-
 .heart-wrapper {
 	position: relative;
 	display: inline-flex;

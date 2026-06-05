@@ -13,60 +13,19 @@
 
 	const url = 'https://evergreenlavanderias.com';
 	const image = `${url}/social.png`;
-
-	const schema = {
-		'@context': 'https://schema.org',
-		'@type': 'LaundryService',
-		name: 'Evergreen Lavanderías',
-		url: 'https://evergreenlavanderias.com',
-		logo: 'https://evergreenlavanderias.com/icon.png',
-		image: 'https://evergreenlavanderias.com/social.png',
-		telephone: '+51947947119',
-		address: {
-			'@type': 'PostalAddress',
-			streetAddress: 'Av. Petit Thouars 4740',
-			addressLocality: 'Miraflores',
-			addressRegion: 'Lima',
-			addressCountry: 'PE'
-		}
-	};
-
-
-const developerSchema = {
-		'@context': 'https://schema.org',
-		'@type': 'Organization',
-		name: 'CC Tech Solutions',
-		url: 'https://cctechsolutions.dev'
-	};
 </script>
 
 <svelte:head>
-
-<script type="application/ld+json">
-		{@html JSON.stringify(schema)}
-	</script>
-
-	<script type="application/ld+json">
-		{@html JSON.stringify(developerSchema)}
-	</script>
-
-
 	<title>{title}</title>
 
 	<link rel="icon" href={favicon} />
 
 	<meta name="description" content={description} />
-	<meta name="keywords" content="lavandería, lavandería en Lima, lavado de ropa, lavado de edredones, lavandería profesional, pickup delivery, Evergreen Lavanderías, lavandería miraflores, lavandería san isidro, lavandería surquillo, lavandería delivery lima, lavado de edredones lima, lavado de ropa miraflores, lavandería cerca de mí, lavandería premium lima, lavandería a domicilio lima, lavandería ecológica lima" />
+	<meta name="keywords" content="lavandería, lavandería en Lima, lavado de ropa, lavado de edredones, lavandería profesional, pickup delivery, Evergreen Lavanderías" />
 	<meta name="author" content="Evergreen Lavanderías" />
-	<meta name="creator" content="CC Tech Solutions | Cristhina Chacon" />
+	<meta name="creator" content="CC Tech Solutions" />
 	<meta name="publisher" content="CC Tech Solutions" />
 	<meta name="robots" content="index, follow" />
-	<meta name="designer" content="CC Tech Solutions | Cristhina Chacon" />
-	<meta name="developer" content="CC Tech Solutions | Cristhina Chacon" />
-
-	<meta name="geo.region" content="PE-LMA" />
-	<meta name="geo.placename" content="Lima, Perú" />
-	<meta name="ICBM" content="-12.0464, -77.0428" />
 
 	<link rel="canonical" href={url} />
 
@@ -80,8 +39,6 @@ const developerSchema = {
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:alt" content="Evergreen Lavanderías - Más de 15 años de trayectoria" />
-	<meta property="og:locale" content="es_PE" />
-	<meta property="og:image:type" content="image/png" />
 
 	<!-- Twitter / X -->
 	<meta name="twitter:card" content="summary_large_image" />

@@ -118,7 +118,7 @@
 
 	<!-- Delivery -->
 	<div
-		class="mt-5 rounded-3xl bg-(--color-primary-soft) p-5"
+		class="mt-5 rounded-3xl bg-[var(--color-primary-soft)] p-5"
 	>
 		<div
 			class="mb-3 flex size-10 items-center justify-center rounded-full bg-white text-(--color-primary)"
