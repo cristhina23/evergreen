@@ -1,6 +1,6 @@
 <script>
 	import { Leaf } from 'lucide-svelte';
-	import  Icon  from '@iconify/svelte';
+	import Icon from '@iconify/svelte';
 
 	import { socialLinks, sectionContent } from '../../data/site.js';
 </script>
@@ -20,8 +20,6 @@
 			{sectionContent.social.title}
 		</h2>
 
-		<Icon icon="mdi:facebook" width="40" height="40" />
-
 		<div class="flex gap-3">
 			{#each socialLinks as social}
 				<a
@@ -29,7 +27,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label={social.label}
-					class="flex size-11 items-center justify-center rounded-full bg-white text-(--color-primary) shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+					class="flex size-11 items-center justify-center rounded-full bg-white text-[var(--color-primary)] shadow-sm transition hover:-translate-y-1 hover:shadow-md"
 				>
 					<Icon icon={social.icon} width="22" height="22" />
 				</a>

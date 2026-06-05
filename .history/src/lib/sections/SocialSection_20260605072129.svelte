@@ -20,8 +20,6 @@
 			{sectionContent.social.title}
 		</h2>
 
-		<Icon icon="mdi:facebook" width="40" height="40" />
-
 		<div class="flex gap-3">
 			{#each socialLinks as social}
 				<a
