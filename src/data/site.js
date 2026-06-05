@@ -58,7 +58,7 @@ export const locations = [
 		whatsappUrl: 'https://wa.me/51947947119',
 		schedule: 'Lunes a Sábado: 9:00 a.m. - 7:00 p.m. Domingos y feriados: Cerrado',
 		image:
-			'/sede3.png',
+			'/sede3.webp',
 		map: 'https://maps.app.goo.gl/71DfbriJBQQDhk9B7'
 	},
 	{
@@ -70,7 +70,7 @@ export const locations = [
 		whatsappUrl: 'https://wa.me/51937609351',
 		schedule: 'Lunes a Sábado: 9:00 a.m. - 7:00 p.m.',
 		image:
-			'sede2.png',
+			'sede2.webp',
 		map: 'https://maps.app.goo.gl/Ni52U9WrF4fR7SBGA'
 	},
 	{
@@ -82,7 +82,7 @@ export const locations = [
 		whatsappUrl: 'https://wa.me/51978355873',
 		schedule: 'Lunes a Sábado: 9:00 a.m. - 7:00 p.m.',
 		image:
-			'sede1.png',
+			'sede1.webp',
 		map: 'https://maps.app.goo.gl/GimC5A3gonTaNPHA8'
 	}
 ];
@@ -161,7 +161,7 @@ export const beforeAfter = {
 
 	cta: 'Ver más resultados',
 
-	beforeImage: 'antes-despues.png'
+	beforeImage: 'antes-despues.webp'
 };
 
 export const pickupDelivery = {
@@ -172,7 +172,7 @@ export const pickupDelivery = {
 	description:
 		'Olvídate de desplazamientos y largas esperas. Recogemos tus prendas en la puerta de tu hogar o negocio y las devolvemos limpias, frescas y listas para usar.',
 
-	image: 'transporte2.png',
+	image: 'transporte2.webp',
 
 	cta: 'Solicitar recojo',
 
@@ -222,7 +222,7 @@ export const franchiseInfo = {
 	cta: 'Quiero más información',
 	videoLabel: 'Conoce las ventajas de ser franquiciado',
 	image:
-		'franquicia.png',
+		'franquicia.webp',
 	benefits: [
 		{ title: 'Modelo de negocio probado y rentable', icon: 'Recycle' },
 		{ title: 'Soporte y capacitación continua', icon: 'Users' },
