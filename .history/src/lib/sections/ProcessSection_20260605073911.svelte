@@ -5,7 +5,7 @@
 	import Container from '$lib/components/ui/Container.svelte';
 </script>
 
-<section class="py-8 ">
+<section class="py-8 lg:py-16">
 	<Container>
 		<div
 			class="rounded-4xl bg-white p-6 shadow-[0_18px_50px_rgba(15,39,68,0.06)] lg:p-8"
