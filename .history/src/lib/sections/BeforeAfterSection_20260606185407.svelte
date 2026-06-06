@@ -5,10 +5,10 @@
 	import Container from '$lib/components/ui/Container.svelte';
 </script>
 
-<section class="py-12 lg:py-20">
+<section class="py-12 lg:py-24">
 	<Container>
 		<div
-			class="grid items-center gap-8 overflow-hidden rounded-[32px] bg-white p-6 shadow-[0_20px_60px_rgba(15,39,68,0.08)] lg:grid-cols-2 lg:p-10 lg:pb-12"
+			class="grid items-center gap-8 overflow-hidden rounded-[32px] bg-white p-6 shadow-[0_20px_60px_rgba(15,39,68,0.08)] lg:grid-cols-2 lg:p-10"
 		>
 			<!-- CONTENT -->
 			<div>

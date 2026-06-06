@@ -20,7 +20,7 @@ export const heroContent = {
 	titleBeforeHighlight: 'Cuidado que se nota, limpieza que',
 	highlight: 'transforma',
 	description:
-		'Brindamos soluciones de lavandería con calidad superior, tecnología de punta y un compromiso real con el bienestar de tu familia y tu comunidad.Lavamos cada prenda con procesos profesionales',
+		'Brindamos soluciones de lavandería con calidad superior, tecnología de punta y un compromiso real con el bienestar de tu familia y tu comunidad.',
 	primaryCta: 'Conócenos',
 	secondaryCta: 'Escríbenos por WhatsApp',
 	image:
@@ -56,7 +56,7 @@ export const locations = [
 		phone: '+51 947 947 119',
 		whatsapp: '+51 947 947 119',
 		whatsappUrl: 'https://wa.me/51947947119',
-		schedule: 'Lunes a Viernes: 9:00 a.m. - 7:00 p.m. Sábado: 9:00 a.m. - 6:00 p.m.',
+		schedule: 'Lunes a Viernes: 9:00 a.m. - 7:00 p.m. Sábado de 9am a 6pm',
 		image:
 			'/sede3.webp',
 		map: 'https://maps.app.goo.gl/71DfbriJBQQDhk9B7'
@@ -68,7 +68,7 @@ export const locations = [
 		phone: '+51 937 609 351',
 		whatsapp: '+51 937 609 351',
 		whatsappUrl: 'https://wa.me/51937609351',
-		schedule: 'Lunes a Sábado: 8:00 a.m. - 6:00 p.m.',
+		schedule: 'Lunes a Sábado: 9:00 a.m. - 7:00 p.m.',
 		image:
 			'sede2.webp',
 		map: 'https://maps.app.goo.gl/Ni52U9WrF4fR7SBGA'
@@ -77,10 +77,10 @@ export const locations = [
 		name: 'Miraflores',
 		badge: 'Sede Mendiburu',
 		address: 'Av. Gral. Mendiburu 738 Miraflores, Lima, Perú	',
-		phone: '+51 978 355 873',
+		phone: '+51978 355 873',
 		whatsapp: '+51 978 355 873',
 		whatsappUrl: 'https://wa.me/51978355873',
-		schedule: 'Lunes a Viernes: 9:00 a.m. - 7:00 p.m. Sábado: 9:00 a.m. - 6:00 p.m.',
+		schedule: 'Lunes a Sábado: 9:00 a.m. - 7:00 p.m.',
 		image:
 			'sede1.webp',
 		map: 'https://maps.app.goo.gl/GimC5A3gonTaNPHA8'
@@ -207,7 +207,10 @@ export const timeline = [
 	},
 	{
 		year: '2026',
-		text: 'Seguimos innovando para ti. Nuevas inversiones y mejoras que nos permiten ofrecer un servicio cada vez mejor.',	
+		text: 'Lanzamos',
+		linkText: 'EdredonesExpress.com',
+		link: 'https://edredonesexpress.com',
+		textAfter: 'para brindar un servicio especializado.'
 	}
 ];
 
@@ -258,7 +261,7 @@ export const faq = [
 	{
 		question: '¿Qué tipo de prendas y textiles pueden lavar?',
 		answer:
-			'Lavamos ropa de uso diario, ternos, vestidos, vestidos de novia, ropa de cama, edredones, cortinas, manteles y prendas delicadas. Si tienes una prenda especial, nuestro equipo puede asesorarte antes del servicio.'
+			'Lavamos ropa de uso diario, ternos, vestidos, ropa de cama, edredones, cortinas, manteles y prendas delicadas. Si tienes una prenda especial, nuestro equipo puede asesorarte antes del servicio.'
 	},
 	{
 		question: '¿Cuánto tiempo tarda el servicio?',
@@ -283,7 +286,7 @@ export const faq = [
 	{
 		question: '¿Dónde están ubicadas sus sedes?',
 		answer:
-			'Contamos con sedes en Miraflores y Surquillo, además de servicio de recojo y entrega a domicilio en diversas zonas de Lima.'
+			'Contamos con sedes en Miraflores, Surquillo y San Isidro, además de servicio de recojo y entrega a domicilio en diversas zonas de Lima.'
 	}
 ];
 

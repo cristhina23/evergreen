@@ -20,7 +20,7 @@ export const heroContent = {
 	titleBeforeHighlight: 'Cuidado que se nota, limpieza que',
 	highlight: 'transforma',
 	description:
-		'Brindamos soluciones de lavandería con calidad superior, tecnología de punta y un compromiso real con el bienestar de tu familia y tu comunidad.Lavamos cada prenda con procesos profesionales',
+		'Brindamos soluciones de lavandería con calidad superior, tecnología de punta y un compromiso real con el bienestar de tu familia y tu comunidad.',
 	primaryCta: 'Conócenos',
 	secondaryCta: 'Escríbenos por WhatsApp',
 	image:
@@ -283,7 +283,7 @@ export const faq = [
 	{
 		question: '¿Dónde están ubicadas sus sedes?',
 		answer:
-			'Contamos con sedes en Miraflores y Surquillo, además de servicio de recojo y entrega a domicilio en diversas zonas de Lima.'
+			'Contamos con sedes en Miraflores, Surquillo, además de servicio de recojo y entrega a domicilio en diversas zonas de Lima.'
 	}
 ];
 
