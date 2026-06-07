@@ -79,7 +79,7 @@
 			'https://www.youtube.com/channel/UCJrZayWeAHDnolOLClYz_PA',
 
 			'https://maps.app.goo.gl/knMGb4gaTAJjBTiB6',
-			'https://maps.app.goo.gl/V1nbWrEzEv7B3usM9',
+			'https://maps.app.goo.gl/V1nbWrEzEv7B3usM9,
 			'https://maps.app.goo.gl/v2mh9E1dBBvWsBb96'
 		]
 	};

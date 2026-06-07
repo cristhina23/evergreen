@@ -79,8 +79,8 @@
 			'https://www.youtube.com/channel/UCJrZayWeAHDnolOLClYz_PA',
 
 			'https://maps.app.goo.gl/knMGb4gaTAJjBTiB6',
-			'https://maps.app.goo.gl/V1nbWrEzEv7B3usM9',
-			'https://maps.app.goo.gl/v2mh9E1dBBvWsBb96'
+			'https://maps.google.com/?cid=2222222222222222222',
+			'https://maps.google.com/?cid=3333333333333333333'
 		]
 	};
 
@@ -103,25 +103,25 @@
 	};
 
 	const locationsSchema = locations.map((location) => ({
-	'@context': 'https://schema.org',
-	'@type': 'LaundryService',
+		'@context': 'https://schema.org',
+		'@type': 'LaundryService',
 
-	name: `Evergreen Lavanderías - ${location.badge}`,
+		name: `Evergreen Lavanderías - ${location.badge}`,
 
-	telephone: location.phone,
+		url,
 
-	hasMap: location.map,
+		telephone: location.phone,
 
-	sameAs: [location.map],
+		hasMap: location.map,
 
-	address: {
-		'@type': 'PostalAddress',
-		streetAddress: location.address,
-		addressLocality: 'Lima',
-		addressRegion: 'Lima',
-		addressCountry: 'PE'
-	}
-}));
+		address: {
+			'@type': 'PostalAddress',
+			streetAddress: location.address,
+			addressLocality: 'Lima',
+			addressRegion: 'Lima',
+			addressCountry: 'PE'
+		}
+	}));
 </script>
 
 <svelte:head>
