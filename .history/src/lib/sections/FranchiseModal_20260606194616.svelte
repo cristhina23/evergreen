@@ -48,7 +48,7 @@
 			const formData = new FormData(event.currentTarget);
 
 			const response = await fetch(
-				'https://formsubmit.co/ajax/informes@evergreenlavanderias.com',
+				'https://formsubmit.co/ajax/informes@evergreenlavanderuas.com',
 				{
 					method: 'POST',
 					body: formData

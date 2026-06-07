@@ -48,7 +48,7 @@
 			const formData = new FormData(event.currentTarget);
 
 			const response = await fetch(
-				'https://formsubmit.co/ajax/informes@evergreenlavanderias.com',
+				'https://formsubmit.co/ajax/viszellechacon@gmail.com',
 				{
 					method: 'POST',
 					body: formData
@@ -80,7 +80,7 @@
 </script>
 
 {#if open}
-	<div class="fixed inset-0 z-999 flex items-center justify-center p-4">
+	<div class="fixed inset-0 z-[999] flex items-center justify-center p-4">
 		<button
 			type="button"
 			class="absolute inset-0 bg-black/60 backdrop-blur-sm"
@@ -92,7 +92,7 @@
 			role="dialog"
 			aria-modal="true"
 			aria-labelledby="franchise-modal-title"
-			class="relative z-10 w-full max-w-2xl rounded-4xl bg-white shadow-[0_30px_80px_rgba(15,39,68,0.25)]"
+			class="relative z-10 w-full max-w-2xl rounded-[32px] bg-white shadow-[0_30px_80px_rgba(15,39,68,0.25)]"
 		>
 			<div
 				class="custom-scrollbar max-h-[85vh] overflow-y-auto p-6 pr-4 sm:p-8"
@@ -115,13 +115,13 @@
 						</div>
 
 						<h2
-							class="mt-6 font-heading text-3xl font-bold text-(--color-text-primary)"
+							class="mt-6 font-heading text-3xl font-bold text-[var(--color-text-primary)]"
 						>
 							Solicitud recibida
 						</h2>
 
 						<p
-							class="mx-auto mt-4 max-w-md text-sm leading-7 text-(--color-text-secondary)"
+							class="mx-auto mt-4 max-w-md text-sm leading-7 text-[var(--color-text-secondary)]"
 						>
 							Gracias por tu interés en una franquicia Evergreen.
 
@@ -134,7 +134,7 @@
 						<button
 							type="button"
 							onclick={closeModal}
-							class="mt-8 rounded-full bg-(--color-secondary) px-6 py-3 font-semibold text-white"
+							class="mt-8 rounded-full bg-[var(--color-secondary)] px-6 py-3 font-semibold text-white"
 						>
 							Cerrar
 						</button>
@@ -142,20 +142,20 @@
 				{:else}
 					<div class="pr-10">
 						<p
-							class="text-xs font-bold tracking-[0.15em] uppercase text-(--color-secondary)"
+							class="text-xs font-bold tracking-[0.15em] uppercase text-[var(--color-secondary)]"
 						>
 							Franquicias Evergreen
 						</p>
 
 						<h2
 							id="franchise-modal-title"
-							class="mt-2 font-heading text-3xl font-bold text-(--color-text-primary)"
+							class="mt-2 font-heading text-3xl font-bold text-[var(--color-text-primary)]"
 						>
 							Solicita información
 						</h2>
 
 						<p
-							class="mt-4 text-sm leading-7 text-(--color-text-secondary)"
+							class="mt-4 text-sm leading-7 text-[var(--color-text-secondary)]"
 						>
 							Completa el formulario y recibe información sobre
 							inversión, beneficios y requisitos para operar una
@@ -196,7 +196,7 @@
 								required
 								type="text"
 								autocomplete="name"
-								class="w-full rounded-2xl border border-(--color-border) px-4 py-3"
+								class="w-full rounded-2xl border border-[var(--color-border)] px-4 py-3"
 							/>
 						</div>
 
@@ -211,7 +211,7 @@
 								required
 								type="email"
 								autocomplete="email"
-								class="w-full rounded-2xl border border-(--color-border) px-4 py-3"
+								class="w-full rounded-2xl border border-[var(--color-border)] px-4 py-3"
 							/>
 						</div>
 
@@ -226,7 +226,7 @@
 								required
 								type="tel"
 								autocomplete="tel"
-								class="w-full rounded-2xl border border-(--color-border) px-4 py-3"
+								class="w-full rounded-2xl border border-[var(--color-border)] px-4 py-3"
 							/>
 						</div>
 
@@ -241,7 +241,7 @@
 								required
 								type="text"
 								autocomplete="address-level2"
-								class="w-full rounded-2xl border border-(--color-border) px-4 py-3"
+								class="w-full rounded-2xl border border-[var(--color-border)] px-4 py-3"
 							/>
 						</div>
 
@@ -254,7 +254,7 @@
 
 							<label
 								for="consent"
-								class="text-sm leading-6 text-(--color-text-secondary)"
+								class="text-sm leading-6 text-[var(--color-text-secondary)]"
 							>
 								Acepto ser contactado para recibir información
 								sobre la franquicia Evergreen.
@@ -264,7 +264,7 @@
 						<button
 							type="submit"
 							disabled={loading}
-							class="w-full rounded-full bg-(--color-secondary) px-6 py-3 font-semibold text-white disabled:opacity-60"
+							class="w-full rounded-full bg-[var(--color-secondary)] px-6 py-3 font-semibold text-white disabled:opacity-60"
 						>
 							{#if loading}
 								Enviando...

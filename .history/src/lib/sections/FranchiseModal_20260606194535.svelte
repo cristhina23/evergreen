@@ -48,7 +48,7 @@
 			const formData = new FormData(event.currentTarget);
 
 			const response = await fetch(
-				'https://formsubmit.co/ajax/informes@evergreenlavanderias.com',
+				'https://formsubmit.co/ajax/viszellechacon@gmail.com',
 				{
 					method: 'POST',
 					body: formData
@@ -80,7 +80,7 @@
 </script>
 
 {#if open}
-	<div class="fixed inset-0 z-999 flex items-center justify-center p-4">
+	<div class="fixed inset-0 z-[999] flex items-center justify-center p-4">
 		<button
 			type="button"
 			class="absolute inset-0 bg-black/60 backdrop-blur-sm"

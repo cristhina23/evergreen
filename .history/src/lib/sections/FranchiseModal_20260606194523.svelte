@@ -48,7 +48,7 @@
 			const formData = new FormData(event.currentTarget);
 
 			const response = await fetch(
-				'https://formsubmit.co/ajax/informes@evergreenlavanderias.com',
+				'https://formsubmit.co/ajax/viszellechacon@gmail.com',
 				{
 					method: 'POST',
 					body: formData
@@ -80,7 +80,7 @@
 </script>
 
 {#if open}
-	<div class="fixed inset-0 z-999 flex items-center justify-center p-4">
+	<div class="fixed inset-0 z-[999] flex items-center justify-center p-4">
 		<button
 			type="button"
 			class="absolute inset-0 bg-black/60 backdrop-blur-sm"
@@ -92,7 +92,7 @@
 			role="dialog"
 			aria-modal="true"
 			aria-labelledby="franchise-modal-title"
-			class="relative z-10 w-full max-w-2xl rounded-4xl bg-white shadow-[0_30px_80px_rgba(15,39,68,0.25)]"
+			class="relative z-10 w-full max-w-2xl rounded-[32px] bg-white shadow-[0_30px_80px_rgba(15,39,68,0.25)]"
 		>
 			<div
 				class="custom-scrollbar max-h-[85vh] overflow-y-auto p-6 pr-4 sm:p-8"
