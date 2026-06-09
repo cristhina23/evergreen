@@ -59,8 +59,6 @@
 			);
 
 			if (response.ok) {
-				trackFranchiseLead();
-				
 				localStorage.setItem(
 					'evergreen-franchise-form-sent',
 					'true'

@@ -3,7 +3,10 @@
 	import { Leaf } from 'lucide-svelte';
 	import { heroContent, businessInfo } from '../../data/site.js';
 	import Button from '$lib/components/ui/Button.svelte';
-	import { trackWhatsapp } from '$lib/utils/metaPixel.js';
+	import {
+		trackWhatsapp,
+		trackLocation
+	} from '$lib/utils/metaPixel.js';
 </script>
 
 <section
@@ -124,7 +127,6 @@
 						class="min-h-14 flex-1 px-8"
 						href={businessInfo.whatsappUrl} target="_blank"
 						rel="noopener noreferrer"
-						onclick={trackWhatsapp}
 					/>
 				</div>
 			</div>

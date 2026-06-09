@@ -124,7 +124,7 @@
 						class="min-h-14 flex-1 px-8"
 						href={businessInfo.whatsappUrl} target="_blank"
 						rel="noopener noreferrer"
-						onclick={trackWhatsapp}
+						onclick={track}
 					/>
 				</div>
 			</div>

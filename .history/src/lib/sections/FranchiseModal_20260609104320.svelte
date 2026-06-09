@@ -3,7 +3,7 @@
 	import { X } from 'lucide-svelte';
   import { Check } from 'lucide-svelte';
 	import {
-		trackFranchiseLead
+		
 	} from '$lib/utils/metaPixel.js';
 
 	let { open = false, onClose = () => {} } = $props();
@@ -59,8 +59,6 @@
 			);
 
 			if (response.ok) {
-				trackFranchiseLead();
-				
 				localStorage.setItem(
 					'evergreen-franchise-form-sent',
 					'true'

@@ -258,7 +258,6 @@
 				href={active.whatsappUrl}
 				target="_blank"
 				rel="noopener noreferrer"
-				onclick={trackWhatsapp}
 			/>
 		</div>
 	</div>

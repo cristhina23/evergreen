@@ -6,7 +6,7 @@
 	import Container from '$lib/components/ui/Container.svelte';
 	import LocationCard from '$lib/components/cards/LocationCard.svelte';
 	import SectionTitle from '$lib/components/ui/SectionTitle.svelte';
-	import { trackLocation, trackWhatsapp } from '$lib/utils/metaPixel.js';
+	import {  } from '$lib/utils/metaPixel.js';
 
 
 	let activeIndex = $state(0);
@@ -247,7 +247,6 @@
 				href={active.map}
 				target="_blank"
 				rel="noopener noreferrer"
-				onclick={trackLocation}
 			/>
 
 			<Button
@@ -258,7 +257,6 @@
 				href={active.whatsappUrl}
 				target="_blank"
 				rel="noopener noreferrer"
-				onclick={trackWhatsapp}
 			/>
 		</div>
 	</div>

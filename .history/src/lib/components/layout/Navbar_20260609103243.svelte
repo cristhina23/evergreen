@@ -3,7 +3,6 @@
 	import { fade, slide } from 'svelte/transition';
 	import { Menu, MessageCircle, X } from 'lucide-svelte';
 	import { businessInfo } from '../../../data/site.js';
-	import { trackWhatsapp } from '../../../utils/metaPixel.js';
 
 	let open = $state(false);
 	let scrolled = $state(false);
@@ -119,8 +118,6 @@
 			href={businessInfo.whatsappUrl}
 			target="_blank"
 			rel="noreferrer"
-			aria-label={businessInfo.whatsappLabel}
-			onclick={trackWhatsapp}
 			class="hidden min-h-12 items-center justify-center gap-2 rounded-full bg-[var(--color-secondary)] px-7 text-sm font-bold text-white shadow-[0_12px_28px_rgba(76,175,80,0.22)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#43a047] hover:shadow-[0_16px_34px_rgba(76,175,80,0.28)] md:inline-flex"
 		>
 			<MessageCircle size={18} strokeWidth={2.4} />
@@ -161,8 +158,6 @@
 					href={businessInfo.whatsappUrl}
 					target="_blank"
 					rel="noreferrer"
-					aria-label={businessInfo.whatsappLabel}
-					
 					class="mt-3 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[var(--color-secondary)] px-6 text-sm font-bold text-white shadow-[0_12px_28px_rgba(76,175,80,0.22)]"
 					onclick={() => (open = false)}
 				>

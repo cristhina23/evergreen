@@ -25,10 +25,7 @@
 				<p class="mt-4 text-sm leading-7 text-white/82">{franchiseInfo.description}</p>
 				<button
 					type="button"
-					onclick={() => {
-						trackOpenFranchiseModal();
-						showModal = true;
-					}}
+					onclick={() => (showModal = true)}
 					class="mt-5 inline-flex min-h-11 items-center justify-center rounded-full bg-white px-5 text-sm font-semibold text-(--color-secondary) shadow-[0_10px_25px_rgba(15,39,68,0.08)] transition hover:bg-(--color-secondary-soft)"
 				>
 					{franchiseInfo.cta}

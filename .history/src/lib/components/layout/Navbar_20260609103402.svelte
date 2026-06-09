@@ -162,7 +162,7 @@
 					target="_blank"
 					rel="noreferrer"
 					aria-label={businessInfo.whatsappLabel}
-					
+					onclick={trackWhatsapp}
 					class="mt-3 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[var(--color-secondary)] px-6 text-sm font-bold text-white shadow-[0_12px_28px_rgba(76,175,80,0.22)]"
 					onclick={() => (open = false)}
 				>
