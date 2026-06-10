@@ -107,7 +107,7 @@
 	</p>
 	</a>
 </div>
-	</div>
+<
 
 <a
 	href={businessInfo.whatsappUrl}
