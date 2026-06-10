@@ -113,7 +113,7 @@
 				>
 					<Button
 						label={heroContent.primaryCta}
-						class="min-h-14 flex-1 px-6"
+						class="min-h-14 flex-1 px-8"
 						href='#nosotros'
 					/>
 
