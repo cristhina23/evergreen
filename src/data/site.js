@@ -9,7 +9,7 @@ export const businessInfo = {
 	whatsappCtaLabel: 'Escríbenos por WhatsApp',
 	whatsappUrl:
 		'https://wa.me/51947947119?text=Hola%20Evergreen%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20lavander%C3%ADa.',
-	phone: '+51 947 947 119',
+	phone: '+51 939 072 936',
 	email: 'hola@evergreenlavanderias.com',
 	address: 'Av. Petit Thoaurs 4740 Miraflores, Lima, Perú'
 };
@@ -53,9 +53,9 @@ export const locations = [
 		name: 'Miraflores',
 		badge: 'Sede Petit Thoaurs',
 		address: 'Av. Petit Thoaurs 4740 Miraflores, Lima, Perú',
-		phone: '+51 947 947 119',
-		whatsapp: '+51 947 947 119',
-		whatsappUrl: 'https://wa.me/51947947119',
+		phone: '+51 939 072 936',
+		whatsapp: '+51 939 072 936',
+		whatsappUrl: 'https://wa.me/51939072936',
 		schedule: 'Lunes a Viernes: 9:00 a.m. - 7:00 p.m. Sábado: 9:00 a.m. - 6:00 p.m.',
 		image:
 			'/sede3.webp',
