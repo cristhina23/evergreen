@@ -8,7 +8,7 @@ export const businessInfo = {
 	whatsappLabel: 'Escríbenos',
 	whatsappCtaLabel: 'Escríbenos por WhatsApp',
 	whatsappUrl:
-		'https://wa.me/51947947119?text=Hola%20Evergreen%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20lavander%C3%ADa.',
+		'https://wa.me/51939072936?text=Hola%20Evergreen%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20lavander%C3%ADa.',
 	phone: '+51 939 072 936',
 	email: 'hola@evergreenlavanderias.com',
 	address: 'Av. Petit Thoaurs 4740 Miraflores, Lima, Perú'
