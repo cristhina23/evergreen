@@ -77,9 +77,9 @@ export const locations = [
 		name: 'Miraflores',
 		badge: 'Sede Mendiburu',
 		address: 'Av. Gral. Mendiburu 738 Miraflores, Lima, Perú	',
-		phone: '+51 978 355 873',
-		whatsapp: '+51 978 355 873',
-		whatsappUrl: 'https://wa.me/51978355873',
+		phone: '+51 947 947 119',
+		whatsapp: '+51 947 947 119',
+		whatsappUrl: 'https://wa.me/51947947119',
 		schedule: 'Lunes a Viernes: 9:00 a.m. - 7:00 p.m. Sábado: 9:00 a.m. - 6:00 p.m.',
 		image:
 			'sede1.webp',
